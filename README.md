@@ -20,3 +20,12 @@ The Mobile unit consists of a Raspberry Pi 3 Model B V1.2, a small LCD screen, a
 The Terminal is a Raspberry Pi 3 Model B V1.2, which may also contain different adapter depending on data transfer tests
   This unit will take in the data from the mobile unit, add it to exsisting data base, and then organize it all.
   This unit will also output a UI for the user to import and delete data. As well as output a more complex UI for the user to have an interactive experince organizing thier life.
+
+
+
+
+
+
+
+
+PCB design based off of https://github.com/w4ilun/pocket-keyboard 
