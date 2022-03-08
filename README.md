@@ -1,13 +1,22 @@
 # Digital-Planner
 
-This project is for my Senior Computer Engineering Project at Elizabethtown College. I am building a mobile digital planner with a sperate terminal to manage and store all data.
+This project is for my Senior Computer Engineering Project at Elizabethtown College.
 
-The purpose of this project is to show what I have learned during my time in college. The other purpose is to build a quailty product that does what it is suppose to do
-and not include extra functions that distract the user. 
+**Porject Status**: Incomplete 
+      PCB and parts ordered
+      Software in development
 
-Two part system: Mobile unit and Terminal
+**Description**
 
-The purpose of the Mobile unit is to take in and store inputs from the user. This will be done with an LCD and hand-held keyboard via a Raspberry Pi 
+I am building a multi-part Digital Planner device. There are far too many distractions on a smart-phone to be an effective tool for organization 
 
-The purpose of the Terminal is to take the data from the Mobile unit, organize the data and output a easily digestable GUI as well as a output data to a csv file. 
 
+The planner has two seperate units: Mobile and Terminal
+
+The Mobile unit consists of a Raspberry Pi 3 Model B V1.2, a small LCD screen, and custom PCB keyboard 
+  This unit will take in user's data such as a organization key term, description, date & time, and location and store it locally until transfered to terminal. 
+  This unit will also display a simple UI for the user to input data as well as a UI for important data (marked with a urgency/importance weight) 
+
+The Terminal is a Raspberry Pi 3 Model B V1.2, which may also contain different adapter depending on data transfer tests
+  This unit will take in the data from the mobile unit, add it to exsisting data base, and then organize it all.
+  This unit will also output a UI for the user to import and delete data. As well as output a more complex UI for the user to have an interactive experince organizing thier life.
